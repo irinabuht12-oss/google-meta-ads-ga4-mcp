@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "google-meta-ads-ga4": {
+      "url": "YOUR_MCP_ENDPOINT_URL"
+    }
+  }
+}

@@ -1,0 +1,3 @@
+[mcp_servers.google-meta-ads-ga4]
+type = "url"
+url = "YOUR_MCP_ENDPOINT_URL"
