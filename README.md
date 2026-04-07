@@ -10,6 +10,14 @@
 
 <!-- ![Banner](assets/banner.png) -->
 
+### Watch: Google Ads & Meta Ads Account Audit with Claude MCP
+
+> See how to run a full Google Ads and Meta Ads account audit using Claude with MCP — from data pull to automated audit report and presentation, in minutes instead of hours.
+
+https://github.com/user-attachments/assets/2f931292-a3af-4010-a72e-38b8cf6e62ba
+
+**What you'll see:** Connect your ad accounts → Claude analyzes campaign performance, budget efficiency, and targeting gaps across Google Ads & Meta Ads → generates a complete audit report with recommendations → builds a ready-to-share presentation.
+
 One MCP server. Three platforms. **250+ tools.** Manage all your advertising and analytics from ChatGPT, Claude, Cursor, n8n, Windsurf, and more.
 
 ---
