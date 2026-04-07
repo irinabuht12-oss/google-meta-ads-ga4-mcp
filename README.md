@@ -7,6 +7,7 @@
 [![Google Ads](https://img.shields.io/badge/Google%20Ads-API%20v20-4285F4?logo=google-ads&logoColor=white)](#google-ads-tools)
 [![Meta Ads](https://img.shields.io/badge/Meta%20Ads-Marketing%20API-0081FB?logo=meta&logoColor=white)](#meta-ads-tools)
 [![GA4](https://img.shields.io/badge/GA4-Data%20API-E37400?logo=google-analytics&logoColor=white)](#google-analytics-4-tools)
+[![Powered by Ryze AI](https://img.shields.io/badge/Powered%20by-Ryze%20AI-FF6B35?logo=rocket&logoColor=white)](https://www.get-ryze.ai/)
 
 <!-- ![Banner](assets/banner.png) -->
 
@@ -16,9 +17,9 @@
 
 https://github.com/user-attachments/assets/2f931292-a3af-4010-a72e-38b8cf6e62ba
 
-**What you'll see:** Connect your ad accounts → Claude analyzes campaign performance, budget efficiency, and targeting gaps across Google Ads & Meta Ads → generates a complete audit report with recommendations → builds a ready-to-share presentation.
+**What you'll see:** Connect your ad accounts → Claude analyzes campaign performance, budget efficiency, and targeting gaps across Google Ads & Meta Ads → generates a complete audit report with recommendations → builds a ready-to-share presentation. **[Try it free on Ryze AI →](https://www.get-ryze.ai/)**
 
-One MCP server. Three platforms. **250+ tools.** Manage all your advertising and analytics from ChatGPT, Claude, Cursor, n8n, Windsurf, and more.
+One MCP server. Three platforms. **250+ tools.** Manage all your advertising and analytics from ChatGPT, Claude, Cursor, n8n, Windsurf, and more. Powered by [Ryze AI](https://www.get-ryze.ai/).
 
 ---
 
@@ -563,4 +564,6 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
   <strong>Google Ads MCP</strong> · <strong>Meta Ads MCP</strong> · <strong>Facebook Ads MCP</strong> · <strong>GA4 MCP</strong> · <strong>Model Context Protocol</strong>
   <br>
   Built for marketers, agencies, and developers who want AI-powered ad management.
+  <br><br>
+  <a href="https://www.get-ryze.ai/">🚀 Get started with Ryze AI</a>
 </p>
