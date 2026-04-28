@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/irinabuht12-oss-google-meta-ads-ga4-mcp-badge.png)](https://mseep.ai/app/irinabuht12-oss-google-meta-ads-ga4-mcp)
+
 # Google Ads + Meta Ads + GA4 — MCP Server
 
 > **The unified MCP server for managing Google Ads, Meta (Facebook/Instagram) Ads, and Google Analytics 4 from any AI assistant.**
