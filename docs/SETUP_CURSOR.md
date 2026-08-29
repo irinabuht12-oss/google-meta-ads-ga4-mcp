@@ -14,7 +14,7 @@ Create or edit `~/.cursor/mcp.json`:
 {
   "mcpServers": {
     "google-meta-ads-ga4": {
-      "url": "YOUR_MCP_ENDPOINT_URL"
+      "url": "https://mcp.get-ryze.ai/mcp"
     }
   }
 }
@@ -49,7 +49,7 @@ Add the following configuration:
 ```json
 {
   "google-meta-ads-ga4": {
-    "url": "YOUR_MCP_ENDPOINT_URL"
+    "url": "https://mcp.get-ryze.ai/mcp"
   }
 }
 ```

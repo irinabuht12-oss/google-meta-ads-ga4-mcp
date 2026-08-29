@@ -1,6 +1,6 @@
-# Google Ads + Meta Ads + GA4 — MCP Server
+# Google Ads MCP + Meta Ads MCP + GA4 — one unified MCP server
 
-> **The unified MCP server for managing Google Ads, Meta (Facebook/Instagram) Ads, and Google Analytics 4 from any AI assistant.**
+> **Google Ads MCP, Meta Ads (Facebook/Instagram) MCP, and Google Analytics 4 in a single server for Claude, ChatGPT, Cursor, Windsurf & n8n — 250+ tools, hosted remote MCP, OAuth login, no API keys.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![MCP Protocol](https://img.shields.io/badge/MCP-Protocol-blue)](https://modelcontextprotocol.io)
@@ -20,6 +20,14 @@ https://github.com/user-attachments/assets/2f931292-a3af-4010-a72e-38b8cf6e62ba
 **What you'll see:** Connect your ad accounts → Claude analyzes campaign performance, budget efficiency, and targeting gaps across Google Ads & Meta Ads → generates a complete audit report with recommendations → builds a ready-to-share presentation. **[Try it free on Ryze AI →](https://www.get-ryze.ai/)**
 
 One MCP server. Three platforms. **250+ tools.** Manage all your advertising and analytics from ChatGPT, Claude, Cursor, n8n, Windsurf, and more. Powered by [Ryze AI](https://www.get-ryze.ai/).
+
+### The Ryze MCP family
+
+| Repo | What it covers |
+|------|----------------|
+| [**google-ads-mcp**](https://github.com/irinabuht12-oss/google-ads-mcp) | Google Ads only — 150+ tools for campaigns, keywords, bidding & reports |
+| [**meta-ads-mcp**](https://github.com/irinabuht12-oss/meta-ads-mcp) | Meta (Facebook/Instagram) Ads only — 80+ tools for campaigns, creatives, audiences & insights |
+| **google-meta-ads-ga4-mcp** (this repo) | All three platforms — Google Ads + Meta Ads + GA4 behind one URL |
 
 ---
 
@@ -112,7 +120,7 @@ Add to your `claude_desktop_config.json`:
 {
   "mcpServers": {
     "google-meta-ads-ga4": {
-      "url": "YOUR_MCP_ENDPOINT_URL"
+      "url": "https://mcp.get-ryze.ai/mcp"
     }
   }
 }
@@ -127,7 +135,7 @@ See the full [Claude Setup Guide](docs/SETUP_CLAUDE.md) for detailed instruction
 ### ChatGPT
 
 1. Go to **Settings** > **Connectors** > **Add custom connector**
-2. Enter the MCP endpoint URL: `YOUR_MCP_ENDPOINT_URL`
+2. Enter the MCP endpoint URL: `https://mcp.get-ryze.ai/mcp`
 3. Name it `Google Meta Ads GA4`
 4. Click **Save**
 
@@ -141,7 +149,7 @@ Add to your MCP config (`~/.cursor/mcp.json` or `~/.codeium/windsurf/mcp_config.
 {
   "mcpServers": {
     "google-meta-ads-ga4": {
-      "url": "YOUR_MCP_ENDPOINT_URL"
+      "url": "https://mcp.get-ryze.ai/mcp"
     }
   }
 }
@@ -152,7 +160,7 @@ Add to your MCP config (`~/.cursor/mcp.json` or `~/.codeium/windsurf/mcp_config.
 Use the **MCP Server Trigger** node with Streamable HTTP:
 
 1. Add an **MCP Client** node to your workflow
-2. Set the Server URL to: `YOUR_MCP_ENDPOINT_URL`
+2. Set the Server URL to: `https://mcp.get-ryze.ai/mcp`
 3. Enable Bearer authentication (recommended)
 
 See the full [n8n Setup Guide](docs/SETUP_N8N.md) or import the [ready-made workflow template](configs/n8n_workflow.json).
@@ -160,7 +168,7 @@ See the full [n8n Setup Guide](docs/SETUP_N8N.md) or import the [ready-made work
 ### Claude Code
 
 ```bash
-claude mcp add google-meta-ads-ga4 --transport sse YOUR_MCP_ENDPOINT_URL
+claude mcp add google-meta-ads-ga4 --transport http https://mcp.get-ryze.ai/mcp
 ```
 
 ---

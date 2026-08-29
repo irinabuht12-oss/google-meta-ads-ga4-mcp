@@ -21,7 +21,7 @@ Paste this into your config file:
 {
   "mcpServers": {
     "google-meta-ads-ga4": {
-      "url": "YOUR_MCP_ENDPOINT_URL"
+      "url": "https://mcp.get-ryze.ai/mcp"
     }
   }
 }
@@ -50,7 +50,7 @@ If connected correctly, Claude will use the `list_accounts` tool and show your a
 ### Quick Setup
 
 ```bash
-claude mcp add google-meta-ads-ga4 --transport sse YOUR_MCP_ENDPOINT_URL
+claude mcp add google-meta-ads-ga4 --transport sse https://mcp.get-ryze.ai/mcp
 ```
 
 ### Verify
@@ -68,7 +68,7 @@ You should see `google-meta-ads-ga4` in the list.
 ### Install as Extension
 
 ```bash
-gemini extensions install google-meta-ads-ga4 --url YOUR_MCP_ENDPOINT_URL
+gemini extensions install google-meta-ads-ga4 --url https://mcp.get-ryze.ai/mcp
 ```
 
 ### Verify

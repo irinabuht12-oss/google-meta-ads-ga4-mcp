@@ -14,7 +14,7 @@ Create or edit `~/.codeium/windsurf/mcp_config.json`:
 {
   "mcpServers": {
     "google-meta-ads-ga4": {
-      "url": "YOUR_MCP_ENDPOINT_URL"
+      "url": "https://mcp.get-ryze.ai/mcp"
     }
   }
 }

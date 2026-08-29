@@ -13,7 +13,7 @@
     },
     {
       "parameters": {
-        "url": "YOUR_MCP_ENDPOINT_URL",
+        "url": "https://mcp.get-ryze.ai/mcp",
         "authentication": "none",
         "options": {}
       },
