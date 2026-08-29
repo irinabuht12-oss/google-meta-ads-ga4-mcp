@@ -21,13 +21,9 @@ https://github.com/user-attachments/assets/2f931292-a3af-4010-a72e-38b8cf6e62ba
 
 One MCP server. Three platforms. **250+ tools.** Manage all your advertising and analytics from ChatGPT, Claude, Cursor, n8n, Windsurf, and more. Powered by [Ryze AI](https://www.get-ryze.ai/).
 
-### The Ryze MCP family
+### What is this?
 
-| Repo | What it covers |
-|------|----------------|
-| [**google-ads-mcp**](https://github.com/irinabuht12-oss/google-ads-mcp) | Google Ads only — 150+ tools for campaigns, keywords, bidding & reports |
-| [**meta-ads-mcp**](https://github.com/irinabuht12-oss/meta-ads-mcp) | Meta (Facebook/Instagram) Ads only — 80+ tools for campaigns, creatives, audiences & insights |
-| **google-meta-ads-ga4-mcp** (this repo) | All three platforms — Google Ads + Meta Ads + GA4 behind one URL |
+The [Model Context Protocol (MCP)](https://modelcontextprotocol.io) is the open standard that lets AI assistants like Claude and ChatGPT securely use external tools. This repo is a **Google Ads MCP**, a **Meta Ads MCP**, and a **GA4 MCP** in one server: it exposes the Google Ads API, Meta Marketing API, and Google Analytics 4 Data API as MCP tools, so you create campaigns, research keywords, upload creatives, build audiences, and pull performance reports by chatting with your AI assistant instead of clicking through three dashboards.
 
 ---
 
