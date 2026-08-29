@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.irinabuht12-oss/google-meta-ads-ga4-mcp",
+  "title": "Google Ads + Meta Ads + GA4 MCP",
+  "description": "Google Ads, Meta Ads & GA4 MCP server - 250+ tools for campaigns, creatives, audiences & reports.",
+  "repository": {
+    "url": "https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp",
+    "source": "github",
+    "id": "1202492868"
+  },
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.get-ryze.ai/mcp"
+    }
+  ]
+}
