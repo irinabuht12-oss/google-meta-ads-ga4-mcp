@@ -9,7 +9,7 @@
 [![GA4](https://img.shields.io/badge/GA4-Data%20API-E37400?logo=google-analytics&logoColor=white)](#google-analytics-4-tools)
 [![Powered by Ryze AI](https://img.shields.io/badge/Powered%20by-Ryze%20AI-FF6B35?logo=rocket&logoColor=white)](https://www.get-ryze.ai/)
 
-<!-- ![Banner](assets/banner.png) -->
+[![Google + Meta Ads in one MCP](assets/banner.png)](https://www.get-ryze.ai/)
 
 ### Watch: Google Ads & Meta Ads Account Audit with Claude MCP
 
