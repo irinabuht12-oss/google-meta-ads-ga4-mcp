@@ -21,7 +21,7 @@ Paste this into your config file:
 {
   "mcpServers": {
     "google-meta-ads-ga4": {
-      "url": "https://mcp.get-ryze.ai/mcp"
+      "url": "https://connector.get-ryze.ai/mcp"
     }
   }
 }
@@ -50,7 +50,7 @@ If connected correctly, Claude will use the `list_accounts` tool and show your a
 ### Quick Setup
 
 ```bash
-claude mcp add google-meta-ads-ga4 --transport sse https://mcp.get-ryze.ai/mcp
+claude mcp add google-meta-ads-ga4 --transport http https://connector.get-ryze.ai/mcp
 ```
 
 ### Verify
@@ -68,7 +68,7 @@ You should see `google-meta-ads-ga4` in the list.
 ### Install as Extension
 
 ```bash
-gemini extensions install google-meta-ads-ga4 --url https://mcp.get-ryze.ai/mcp
+gemini extensions install google-meta-ads-ga4 --url https://connector.get-ryze.ai/mcp
 ```
 
 ### Verify
@@ -95,7 +95,7 @@ gemini extensions list
 
 ### "Tool not found" errors
 
-Make sure you're using the correct tool names. Google Ads tools use their original names (e.g., `list_accounts`), Meta tools are prefixed with `meta_` (e.g., `meta_get_campaigns`), and GA4 tools are prefixed with `ga_` (e.g., `ga_run_report`).
+Make sure you're using the current tool names. Google Ads tools are e.g. `getAccountSummary`, `runRawGaql`, `generateKeywordIdeas`, `listRecommendations`; Meta Ads tools are e.g. `runRawInsights`, `runGraphRead`, `searchAdLibrary`, `listLeads`; GA4 tools are e.g. `runRawReport`, `runRealtimeReport`. Full reference: https://www.get-ryze.ai/google-ads-mcp and https://www.get-ryze.ai/meta-ads-mcp.
 
 ---
 

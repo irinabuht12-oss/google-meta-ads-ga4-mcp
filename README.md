@@ -116,7 +116,7 @@ Add to your `claude_desktop_config.json`:
 {
   "mcpServers": {
     "google-meta-ads-ga4": {
-      "url": "https://mcp.get-ryze.ai/mcp"
+      "url": "https://connector.get-ryze.ai/mcp"
     }
   }
 }
@@ -131,7 +131,7 @@ See the full [Claude Setup Guide](docs/SETUP_CLAUDE.md) for detailed instruction
 ### ChatGPT
 
 1. Go to **Settings** > **Connectors** > **Add custom connector**
-2. Enter the MCP endpoint URL: `https://mcp.get-ryze.ai/mcp`
+2. Enter the MCP endpoint URL: `https://connector.get-ryze.ai/mcp`
 3. Name it `Google Meta Ads GA4`
 4. Click **Save**
 
@@ -145,7 +145,7 @@ Add to your MCP config (`~/.cursor/mcp.json` or `~/.codeium/windsurf/mcp_config.
 {
   "mcpServers": {
     "google-meta-ads-ga4": {
-      "url": "https://mcp.get-ryze.ai/mcp"
+      "url": "https://connector.get-ryze.ai/mcp"
     }
   }
 }
@@ -156,7 +156,7 @@ Add to your MCP config (`~/.cursor/mcp.json` or `~/.codeium/windsurf/mcp_config.
 Use the **MCP Server Trigger** node with Streamable HTTP:
 
 1. Add an **MCP Client** node to your workflow
-2. Set the Server URL to: `https://mcp.get-ryze.ai/mcp`
+2. Set the Server URL to: `https://connector.get-ryze.ai/mcp`
 3. Enable Bearer authentication (recommended)
 
 See the full [n8n Setup Guide](docs/SETUP_N8N.md) or import the [ready-made workflow template](configs/n8n_workflow.json).
@@ -164,7 +164,7 @@ See the full [n8n Setup Guide](docs/SETUP_N8N.md) or import the [ready-made work
 ### Claude Code
 
 ```bash
-claude mcp add google-meta-ads-ga4 --transport http https://mcp.get-ryze.ai/mcp
+claude mcp add google-meta-ads-ga4 --transport http https://connector.get-ryze.ai/mcp
 ```
 
 ---

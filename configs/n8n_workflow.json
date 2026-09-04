@@ -13,7 +13,7 @@
     },
     {
       "parameters": {
-        "url": "https://mcp.get-ryze.ai/mcp",
+        "url": "https://connector.get-ryze.ai/mcp",
         "authentication": "none",
         "options": {}
       },

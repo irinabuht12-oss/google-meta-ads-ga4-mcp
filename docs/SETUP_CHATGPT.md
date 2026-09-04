@@ -23,7 +23,7 @@ Connect the Google Meta Ads GA4 MCP server to ChatGPT.
 ### Step 2: Configure the Connector
 
 - **Name:** `Google Meta Ads GA4`
-- **MCP Server URL:** `https://mcp.get-ryze.ai/mcp`
+- **MCP Server URL:** `https://connector.get-ryze.ai/mcp`
 - **Authentication:** OAuth (will prompt on first use)
 
 ### Step 3: Save and Test

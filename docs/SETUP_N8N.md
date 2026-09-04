@@ -27,7 +27,7 @@ n8n supports MCP servers via the **MCP Client Tool** node using Streamable HTTP.
 1. Create a new workflow
 2. Add an **MCP Client Tool** node
 3. Configure:
-   - **Server URL:** `https://mcp.get-ryze.ai/mcp`
+   - **Server URL:** `https://connector.get-ryze.ai/mcp`
    - **Transport:** Streamable HTTP
    - **Authentication:** Bearer (recommended) or None
 
