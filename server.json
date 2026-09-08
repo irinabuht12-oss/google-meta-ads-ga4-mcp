@@ -8,11 +8,12 @@
     "source": "github",
     "id": "1202492868"
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "remotes": [
     {
       "type": "streamable-http",
       "url": "https://connector.get-ryze.ai/mcp"
     }
-  ]
+  ],
+  "websiteUrl": "https://www.get-ryze.ai/how-to-connect-claude-to-google-meta-ads-mcp"
 }
