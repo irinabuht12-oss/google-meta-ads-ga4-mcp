@@ -11,6 +11,15 @@
 
 [![Google + Meta Ads in one MCP](assets/banner.png)](https://www.get-ryze.ai/)
 
+## Connect in 30 seconds
+
+```
+claude mcp add ryze --transport http https://connector.get-ryze.ai/mcp
+```
+
+claude.ai, Claude Desktop, ChatGPT, Cursor: **Settings › Connectors › Add custom connector**, paste `https://connector.get-ryze.ai/mcp`, sign in with the Google or Facebook account that owns the ads. No API keys, no developer token, nothing to install. [Screenshots for every client →](https://www.get-ryze.ai/how-to-connect-claude-to-google-meta-ads-mcp)
+
+
 ### Watch: Google Ads & Meta Ads Account Audit with Claude MCP
 
 > See how to run a full Google Ads and Meta Ads account audit using Claude with MCP — from data pull to automated audit report and presentation, in minutes instead of hours.
@@ -108,23 +117,19 @@ Marketers and agencies juggle Google Ads, Meta Ads, and GA4 daily — each with 
 
 ## Quick Start
 
-### Claude Desktop (Recommended)
+### Claude Desktop and claude.ai (Recommended)
 
-Add to your `claude_desktop_config.json`:
+Remote OAuth servers are added as connectors, not in `claude_desktop_config.json`:
 
-```json
-{
-  "mcpServers": {
-    "google-meta-ads-ga4": {
-      "url": "https://connector.get-ryze.ai/mcp"
-    }
-  }
-}
+1. **Settings › Connectors › Add custom connector**
+2. Name `Ryze`, URL `https://connector.get-ryze.ai/mcp`, click Add
+3. Sign in with Google (Google Ads, GA4, Search Console) or Facebook (Meta Ads) and pick the accounts
+
+### Claude Code
+
 ```
-
-> **Config file location:**
-> - macOS: `~/Library/Application Support/Claude/claude_desktop_config.json`
-> - Windows: `%APPDATA%\Claude\claude_desktop_config.json`
+claude mcp add ryze --transport http https://connector.get-ryze.ai/mcp
+```
 
 See the full [Claude Setup Guide](docs/SETUP_CLAUDE.md) for detailed instructions.
 
