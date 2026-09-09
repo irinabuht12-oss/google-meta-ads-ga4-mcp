@@ -1,0 +1,8 @@
+{
+  "$schema": "https://glama.ai/mcp/schemas/server.json",
+  "maintainers": ["irinabuht12-oss"],
+  "name": "Google Ads + Meta Ads + GA4 MCP by Ryze AI",
+  "description": "Hosted remote MCP for Google Ads, Meta Ads, GA4 and Search Console. OAuth login, no API keys.",
+  "homepage": "https://www.get-ryze.ai/how-to-connect-claude-to-google-meta-ads-mcp",
+  "remote": { "url": "https://connector.get-ryze.ai/mcp", "transport": "streamable-http", "auth": "oauth2.1" }
+}

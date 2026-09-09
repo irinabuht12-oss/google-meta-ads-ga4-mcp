@@ -7,6 +7,7 @@
 [![Google Ads](https://img.shields.io/badge/Google%20Ads-API%20v20-4285F4?logo=google-ads&logoColor=white)](#google-ads-tools)
 [![Meta Ads](https://img.shields.io/badge/Meta%20Ads-Marketing%20API-0081FB?logo=meta&logoColor=white)](#meta-ads-tools)
 [![GA4](https://img.shields.io/badge/GA4-Data%20API-E37400?logo=google-analytics&logoColor=white)](#google-analytics-4-tools)
+[![Glama score](https://glama.ai/mcp/servers/irinabuht12-oss/google-meta-ads-ga4-mcp/badges/score.svg)](https://glama.ai/mcp/servers/irinabuht12-oss/google-meta-ads-ga4-mcp)
 [![Powered by Ryze AI](https://img.shields.io/badge/Powered%20by-Ryze%20AI-FF6B35?logo=rocket&logoColor=white)](https://www.get-ryze.ai/)
 
 [![Google + Meta Ads in one MCP](assets/banner.png)](https://www.get-ryze.ai/)
