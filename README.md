@@ -11,6 +11,12 @@
 
 [![Google + Meta Ads in one MCP](assets/banner.png)](https://www.get-ryze.ai/)
 
+## Product pages
+
+- **[Google Ads MCP](google-ads-mcp/README.md)**: tools, prompts, install per client, comparison
+- **[Meta Ads MCP](meta-ads-mcp/README.md)**: Facebook and Instagram Ads tools, prompts, install per client
+- Agent-readable index: [llms.txt](llms.txt)
+
 ## Connect in 30 seconds
 
 ```

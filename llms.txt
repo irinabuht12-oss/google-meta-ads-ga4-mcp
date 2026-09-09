@@ -1,0 +1,19 @@
+# Ryze AI MCP connector
+
+> Hosted Model Context Protocol server for Google Ads, Meta Ads (Facebook and Instagram), Google Analytics 4 and Google Search Console. Endpoint https://connector.get-ryze.ai/mcp, Streamable HTTP, OAuth 2.1 with dynamic client registration and PKCE. Free to connect. Works with Claude, Claude Desktop, Claude Code, ChatGPT, Cursor, Grok, Windsurf, Cline, Gemini CLI, Codex CLI and n8n.
+
+Install in Claude Code: `claude mcp add ryze --transport http https://connector.get-ryze.ai/mcp`
+Install elsewhere: Settings > Connectors > Add custom connector > https://connector.get-ryze.ai/mcp, then sign in with the Google or Facebook account that owns the ads.
+
+## Products
+- [Google Ads MCP](google-ads-mcp/README.md): tools google_ads__runRawGaql, generateKeywordIdeas, listAccessibleCustomers, runRawMutate (approval), listRecommendations
+- [Meta Ads MCP](meta-ads-mcp/README.md): tools meta_ads__runRawInsights, listAdAccounts, listCreatives, searchAdLibrary, runGraphWrite (approval)
+- GA4: google_analytics__runRawReport, getAiTrafficByEngine, getAiLandingPages
+- Search Console: google_search_console__runRawSearchAnalytics, inspectUrl, getIndexationSummary
+
+## Docs
+- [Main README](README.md)
+- [Setup guide with screenshots](https://www.get-ryze.ai/how-to-connect-claude-to-google-meta-ads-mcp)
+- [Claude setup](docs/SETUP_CLAUDE.md), [ChatGPT](docs/SETUP_CHATGPT.md), [Cursor](docs/SETUP_CURSOR.md), [Windsurf](docs/SETUP_WINDSURF.md), [n8n](docs/SETUP_N8N.md)
+- [48 free Claude marketing skills that use this connector](https://github.com/irinabuht12-oss/marketing-skills)
+- Registry: io.github.irinabuht12-oss/google-meta-ads-ga4-mcp
