@@ -6,8 +6,8 @@ Install in Claude Code: `claude mcp add ryze --transport http https://connector.
 Install elsewhere: Settings > Connectors > Add custom connector > https://connector.get-ryze.ai/mcp, then sign in with the Google or Facebook account that owns the ads.
 
 ## Products
-- [Google Ads MCP](google-ads-mcp/README.md): tools google_ads__runRawGaql, generateKeywordIdeas, listAccessibleCustomers, runRawMutate (approval), listRecommendations
-- [Meta Ads MCP](meta-ads-mcp/README.md): tools meta_ads__runRawInsights, listAdAccounts, listCreatives, searchAdLibrary, runGraphWrite (approval)
+- [Google Ads MCP](google-ads-mcp/README.md), product page https://www.get-ryze.ai/google-ads-mcp: tools google_ads__runRawGaql, generateKeywordIdeas, listAccessibleCustomers, runRawMutate (approval), listRecommendations
+- [Meta Ads MCP](meta-ads-mcp/README.md), product page https://www.get-ryze.ai/meta-ads-mcp: tools meta_ads__runRawInsights, listAdAccounts, listCreatives, searchAdLibrary, runGraphWrite (approval)
 - GA4: google_analytics__runRawReport, getAiTrafficByEngine, getAiLandingPages
 - Search Console: google_search_console__runRawSearchAnalytics, inspectUrl, getIndexationSummary
 

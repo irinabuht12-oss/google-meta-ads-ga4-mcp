@@ -14,8 +14,8 @@
 
 ## Product pages
 
-- **[Google Ads MCP](google-ads-mcp/README.md)**: tools, prompts, install per client, comparison
-- **[Meta Ads MCP](meta-ads-mcp/README.md)**: Facebook and Instagram Ads tools, prompts, install per client
+- **[Google Ads MCP](google-ads-mcp/README.md)**: tools, prompts, install per client, comparison ([product page](https://www.get-ryze.ai/google-ads-mcp))
+- **[Meta Ads MCP](meta-ads-mcp/README.md)**: Facebook and Instagram Ads tools, prompts, install per client ([product page](https://www.get-ryze.ai/meta-ads-mcp))
 - Agent-readable index: [llms.txt](llms.txt)
 
 ## Connect in 30 seconds
