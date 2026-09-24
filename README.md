@@ -1,6 +1,6 @@
-# Google Ads MCP + Meta Ads MCP + GA4 — one unified MCP server
+# Google Ads MCP + Meta Ads MCP (Facebook Ads MCP) + GA4: one hosted MCP server for Claude, ChatGPT and Cursor
 
-> **Google Ads MCP, Meta Ads (Facebook/Instagram) MCP, and Google Analytics 4 in a single server for Claude, ChatGPT, Cursor, Windsurf & n8n — 250+ tools, hosted remote MCP, OAuth login, no API keys.**
+> **A Google Ads MCP server, a Meta Ads MCP server (Facebook and Instagram ads), Google Analytics 4 and Google Search Console in one remote MCP for Claude, Claude Code, Claude Desktop, ChatGPT, Cursor, Windsurf and n8n: 250+ tools, OAuth login, no API keys or developer token, approval-gated writes, free to connect.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![MCP Protocol](https://img.shields.io/badge/MCP-Protocol-blue)](https://modelcontextprotocol.io)
@@ -40,6 +40,41 @@ One MCP server. Three platforms. **250+ tools.** Manage all your advertising and
 ### What is this?
 
 The [Model Context Protocol (MCP)](https://modelcontextprotocol.io) is the open standard that lets AI assistants like Claude and ChatGPT securely use external tools. This repo is a **Google Ads MCP**, a **Meta Ads MCP**, and a **GA4 MCP** in one server: it exposes the Google Ads API, Meta Marketing API, and Google Analytics 4 Data API as MCP tools, so you create campaigns, research keywords, upload creatives, build audiences, and pull performance reports by chatting with your AI assistant instead of clicking through three dashboards.
+
+## Official Google Ads MCP vs Meta's ads MCP vs this server
+
+| | Official Google Ads MCP ([googleads/google-ads-mcp](https://github.com/googleads/google-ads-mcp)) | Meta's ads MCP (mcp.facebook.com/ads) | This server (Ryze AI) |
+|---|---|---|---|
+| Platforms | Google Ads only | Meta ads only (Facebook, Instagram) | Google Ads + Meta Ads + GA4 + Search Console, plus TikTok, LinkedIn and Microsoft Ads through the same connector |
+| Hosting | Self-hosted Python server, needs a Google Cloud project | Hosted by Meta | Hosted remote MCP (`https://connector.get-ryze.ai/mcp`) |
+| Login | Google Ads developer token + OAuth | Meta Business login | Google or Facebook login, OAuth 2.1 with PKCE, no developer token |
+| Writes | Read-only by design | Read and write | Read and write; every change goes through an approval step |
+| Price | Free | Free | Free to connect |
+| Best for | Developers building their own agent | Teams that only run Meta ads | Marketers and agencies who want every ad account and GA4 in one chat |
+
+You can run this server next to the official ones; they do not conflict. Use the official Google server when you need a local, read-only, code-first setup, and this one when you want Google Ads, Meta Ads and analytics together with writes.
+
+## Common questions
+
+**Is there an official Google Ads MCP server?** Yes. Google publishes [googleads/google-ads-mcp](https://github.com/googleads/google-ads-mcp): open source, Python, read-only, and it needs a developer token and a Google Cloud project. This repo is the hosted alternative with writes, Meta Ads and GA4 included.
+
+**Is this Google Ads MCP free?** Connecting is free. The 250+ tools work on the free tier; Ryze's paid plans are for the autopilot that runs accounts for you, not for the MCP.
+
+**Does it work as a Google Ads MCP for Claude Desktop, Claude Code, Cursor and ChatGPT?** Yes, one URL for all of them. Claude Code: `claude mcp add ryze --transport http https://connector.get-ryze.ai/mcp`. claude.ai, Claude Desktop, ChatGPT and Cursor: Settings › Connectors › Add custom connector › paste the URL.
+
+**How do I connect Claude to Google Ads or Meta Ads?** Add the connector URL, sign in with the Google or Facebook account that owns the ad accounts, and ask Claude for a campaign summary. Screenshots for every client: [setup guide](https://www.get-ryze.ai/how-to-connect-claude-to-google-meta-ads-mcp).
+
+**Do I need a Google Ads developer token or a Meta app?** No. Login is OAuth through Ryze; there is nothing to install and no API key to manage.
+
+**Can Claude manage or optimize my Google Ads and Meta ads through this?** Yes. Reads are immediate; writes (budgets, bids, pausing, new campaigns, keyword changes) are staged and applied only after you approve them.
+
+**What is the difference between a Facebook Ads MCP and a Meta Ads MCP?** The same thing: Facebook and Instagram ads run on Meta's Marketing API, which is what the Meta Ads tools here expose.
+
+**Is it a remote MCP or a local one?** Remote, over Streamable HTTP. Nothing runs on your machine.
+
+**Does it work for agencies with many Google Ads or Meta accounts?** Yes. `listAccessibleCustomers` returns every Google Ads account the login can reach and you pass `customerId` per call (manager accounts pass `loginCustomerId`); Meta works the same way through `listAdAccounts`.
+
+**Which tools are included?** 150+ Google Ads tools, 80+ Meta Ads tools, 20+ GA4 tools. The full list is in [All Available Tools](#all-available-tools); per-platform pages: [Google Ads MCP](google-ads-mcp/README.md) and [Meta Ads MCP](meta-ads-mcp/README.md).
 
 ---
 
