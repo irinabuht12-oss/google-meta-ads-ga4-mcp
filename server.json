@@ -4,11 +4,11 @@
   "title": "Google Ads + Meta Ads + SEO/GEO MCP",
   "description": "Google Ads, Meta Ads, SEO, GEO & GA4 MCP by Ryze AI - audits, reports, keywords, Search Console.",
   "repository": {
-    "url": "https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp",
+    "url": "https://github.com/irinabuht12-oss/google-ads-meta-ads-mcp",
     "source": "github",
     "id": "1202492868"
   },
-  "version": "1.2.0",
+  "version": "1.2.1",
   "remotes": [
     {
       "type": "streamable-http",
@@ -18,7 +18,7 @@
   "websiteUrl": "https://www.get-ryze.ai/how-to-connect-claude-to-google-meta-ads-mcp",
   "icons": [
     {
-      "src": "https://raw.githubusercontent.com/irinabuht12-oss/google-meta-ads-ga4-mcp/main/assets/ryze-icon-400.png",
+      "src": "https://raw.githubusercontent.com/irinabuht12-oss/google-ads-meta-ads-mcp/main/assets/ryze-icon-400.png",
       "mimeType": "image/png",
       "sizes": [
         "400x400"
